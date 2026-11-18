@@ -7,7 +7,7 @@ Guard Site 24 is a modular WordPress plugin that provides a focused set of basic
 - **Plugin name:** Guard Site 24
 - **Slug:** `guard-site-24`
 - **Version:** 1.0.0
-- **Author:** infoahmadi-projects
+- **Author:** ALI HOSSEIN AHMADI
 - **License:** GPL-2.0-or-later
 - **Minimum WordPress version:** 6.0
 - **Minimum PHP version:** 7.4
