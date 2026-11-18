@@ -1,0 +1,171 @@
+/**
+ * Guard Site 24 administration styles.
+ * These rules are scoped to the plugin dashboard to avoid changing other
+ * WordPress administration screens.
+ */
+
+.gs24-wrap {
+    max-width: 1180px;
+    color: #1d2939;
+}
+
+.gs24-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 24px 0;
+    padding: 28px;
+    color: #fff;
+    background: linear-gradient(120deg, #14213d, #245b83);
+    border-radius: 14px;
+}
+
+.gs24-header h1 {
+    margin: 4px 0 8px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gs24-header p {
+    margin: 0;
+    color: rgba(255, 255, 255, .82);
+}
+
+.gs24-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.gs24-version {
+    padding: 8px 12px;
+    color: #fff;
+    background: rgba(255, 255, 255, .14);
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.gs24-tabs {
+    margin-bottom: 22px;
+}
+
+.gs24-content {
+    display: grid;
+    gap: 20px;
+}
+
+.gs24-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.gs24-card,
+.gs24-panel {
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #e4e7ec;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(16, 24, 40, .035);
+}
+
+.gs24-card-label {
+    display: block;
+    margin-bottom: 12px;
+    color: #667085;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.gs24-card strong {
+    display: block;
+    color: #172b4d;
+    font-size: 28px;
+}
+
+.gs24-card p,
+.gs24-panel > p {
+    color: #667085;
+    line-height: 1.6;
+}
+
+.gs24-panel h2 {
+    margin-top: 0;
+    color: #172b4d;
+}
+
+.gs24-panel-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.gs24-panel-heading h2,
+.gs24-panel-heading p {
+    margin-bottom: 6px;
+}
+
+.gs24-findings {
+    display: grid;
+    gap: 12px;
+}
+
+.gs24-finding {
+    padding: 14px 16px;
+    border-left: 4px solid #98a2b3;
+    background: #f8fafc;
+    border-radius: 6px;
+}
+
+.gs24-finding p {
+    margin-bottom: 0;
+    color: #667085;
+}
+
+.gs24-status-good {
+    border-left-color: #12b76a;
+}
+
+.gs24-status-warning {
+    border-left-color: #f79009;
+}
+
+.gs24-status-info {
+    border-left-color: #2e90fa;
+}
+
+.gs24-detail-list {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+.gs24-table-wrap {
+    overflow-x: auto;
+}
+
+.gs24-table {
+    min-width: 650px;
+}
+
+.gs24-footer {
+    margin: 24px 0;
+    color: #667085;
+    font-size: 12px;
+}
+
+@media (max-width: 782px) {
+    .gs24-header,
+    .gs24-panel-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .gs24-card-grid {
+        grid-template-columns: 1fr;
+    }
+}
